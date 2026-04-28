@@ -17,27 +17,38 @@
 ## 🚀 Установка и запуск
 
 1. **Клонируй репозиторий** (или создай файл `parser.py` с твоим кодом)
- ```git clone https://github.com/SurenManukian/ParserDNS.git```
+ ```git clone https://github.com/SurenManukian/ParserDNS.git ```
 
 3. **Установи зависимости:**
    ```bash
    pip install playwright
-   playwright install chromium  ```
+   playwright install chromium
+   ```
 4. Запусти парсер:
-  ```cd ParserDNS```
-``` python parser.py```
+  ```bash
+cd ParserDNS
+```
+```bash
+python parser.py
+```
 4. Введи ссылку на товар DNS
 Например:
-```https://www.dns-shop.ru/product/...```
-5. Введи название товара:
+```
+https://www.dns-shop.ru/product/...
+```
+6. Введи название товара:
 Например:
-```RTX 5060, IP17 и тд```
+```
+RTX 5060, IP17 и тд
+```
 
 ### Парсер откроет браузер, найдёт цену и сохранит её в prices.db.
 
 ## 🙌 Пример вывода
 
-```Введите URL товара из DNS: https://www.dns-shop.ru/product/...
+```
+Введите URL товара из DNS: https://www.dns-shop.ru/product/...
 [2026-04-28T12:34:56.789012] Сохранена цена: 199999.0
-Цена: 199999.0```
+Цена: 199999.0
+```
 
