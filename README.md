@@ -3,7 +3,7 @@
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python)](https://www.python.org/)
 [![Playwright](https://img.shields.io/badge/Playwright-1.40%2B-green?logo=playwright)](https://playwright.dev/)
 [![SQLite](https://img.shields.io/badge/SQLite-3-blue?logo=sqlite)](https://sqlite.org/)
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT))
 [![Status](https://img.shields.io/badge/Status-Working-brightgreen)]()
 
 Парсер цен товаров из интернет-магазина DNS с автоматическим сохранением данных в SQLite. Использует Playwright для обхода защиты и извлечения JSON-LD.
