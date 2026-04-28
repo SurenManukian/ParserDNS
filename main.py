@@ -4,7 +4,7 @@ import sqlite3
 from datetime import datetime
 
 url = input("Введите URL товара из DNS: ")
-
+tovar = input("Введите название товара(которое добавится в бд): ")
 def init_db():
     """Создаёт таблицу prices, если её ещё нет"""
     conn = sqlite3.connect('prices.db')
@@ -77,7 +77,7 @@ def get_price_from_product_page(url):
             browser.close()
             
             save_price(
-                product_name="RTX 5060",   
+                product_name=tovar,   
                 platform="DNS",
                 price=price,
                 url=url
