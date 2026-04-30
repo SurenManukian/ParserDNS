@@ -22,7 +22,7 @@ def init_db():
     conn.commit()
     conn.close()
     
-
+ 
 def save_price(product_name, platform, price, url):
     """Сохраняет одно измерение в БД"""
     conn = sqlite3.connect('prices.db')
