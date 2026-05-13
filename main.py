@@ -9,6 +9,7 @@ from PyQt6.QtWidgets import (
 )
 
 
+
 class Search:
     def init_db(self):
         conn = sqlite3.connect('prices.db')
